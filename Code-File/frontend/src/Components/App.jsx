@@ -22,6 +22,7 @@ function App() {
 
 
   const [state,dispatch] = useReducer(reducer,initialState)
+  
 
   return (
     <UsedContext.Provider value={{state,dispatch}}>
